@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Jacqueline';
+    src: url('font/jacqueline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;

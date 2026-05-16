@@ -21,7 +21,6 @@ body {
 
 .pantalla {
     width: 100%;
-    aspect-ratio: 9/16;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,10 +28,12 @@ body {
 }
 
 .pantalla-uno {
+    aspect-ratio: 9/16;
     background-image: url('img/1.jpg');
 }
 
 .pantalla-dos {
+    aspect-ratio: 1/1;
     background-image: url('img/2.jpg');
 }
 
@@ -106,45 +107,6 @@ body {
     fill: #4A2F1D;
 }
 
-.contenedor-contador {
-    position: absolute;
-    top: 24.8%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 75%;
-    background: #EBE1CD;
-    border: 3px solid #4A2F1D;
-    border-radius: 30px;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 5%;
-    z-index: 5;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4), inset 0 2px 4px rgba(255,255,255,0.8);
-}
-
-.bloque-tiempo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.bloque-tiempo span:first-child {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: #4A2F1D;
-    line-height: 1;
-}
-
-.bloque-tiempo .etiqueta {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.7rem;
-    font-weight: bold;
-    color: #4A2F1D;
-    margin-top: 2px;
-}
-
 .boton-interactivo {
     position: absolute;
     left: 50%;
@@ -179,9 +141,9 @@ body {
 }
 
 #boton-ubicacion {
-    top: 64.3%;
+    top: 39%;
 }
 
 #boton-confirmar {
-    top: 81%;
+    top: 68%;
 }

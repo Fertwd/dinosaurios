@@ -54,33 +54,10 @@ document.addEventListener('DOMContentLoaded', () => {
         audio.currentTime = clickPercentage * audio.duration;
     });
 
-    const fechaEvento = new Date("Jul 11, 2026 10:20:30").getTime();
-
-    const intervaloContador = setInterval(() => {
-        const ahora = new Date().getTime();
-        const distancia = fechaEvento - ahora;
-
-        if (distancia < 0) {
-            clearInterval(intervaloContador);
-            document.getElementById('dias').innerText = "00";
-            document.getElementById('horas').innerText = "00";
-            document.getElementById('minutos').innerText = "00";
-            return;
-        }
-
-        const dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
-        const horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
-
-        document.getElementById('dias').innerText = dias.toString().padStart(2, '0');
-        document.getElementById('horas').innerText = horas.toString().padStart(2, '0');
-        document.getElementById('minutos').innerText = minutos.toString().padStart(2, '0');
-    }, 1000);
-
     const btnUbicacion = document.getElementById('boton-ubicacion');
     const btnConfirmar = document.getElementById('boton-confirmar');
 
-    btnUbicacion.href = "https://maps.app.goo.gl/TU_ENLACE_AQUI"; 
+    btnUbicacion.href = "https://maps.app.goo.gl/CyhRqWreoKzfYL8MA"; 
 
     btnConfirmar.addEventListener('click', (e) => {
         e.preventDefault();

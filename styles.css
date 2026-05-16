@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Jacqueline';
-    src: url('font/jacqueline.otf') format('truetype');
+    src: url('font/jacqueline.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }

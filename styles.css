@@ -29,82 +29,12 @@ body {
 
 .pantalla-uno {
     aspect-ratio: 9/16;
-    background-image: url('img/1.jpg');
+    background-image: url('img/portada.jpg');
 }
 
 .pantalla-dos {
     aspect-ratio: 1/1;
-    background-image: url('img/2.jpg');
-}
-
-.reproductor-musica {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    z-index: 10;
-}
-
-.linea-progreso {
-    width: 100%;
-    height: 8px;
-    background-color: rgba(74, 47, 29, 0.3);
-    border-radius: 4px;
-    position: relative;
-    cursor: pointer;
-    box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
-}
-
-.progreso-actual {
-    width: 0%;
-    height: 100%;
-    background-color: #4A2F1D;
-    border-radius: 4px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.manejador-progreso {
-    width: 16px;
-    height: 16px;
-    background-color: #8CBA51;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-    transition: left 0.1s linear;
-    border: 2px solid #4A2F1D;
-}
-
-.boton-control {
-    background-color: #8CBA51;
-    border: 3px solid #4A2F1D;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 55px;
-    height: 55px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-    transition: transform 0.2s ease;
-}
-
-.boton-control:active {
-    transform: scale(0.9);
-}
-
-.boton-control svg {
-    width: 60%;
-    height: 60%;
-    fill: #4A2F1D;
+    background-image: url('img/continuacion.jpg');
 }
 
 .boton-interactivo {

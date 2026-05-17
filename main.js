@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btnConfirmar.addEventListener('click', (e) => {
         e.preventDefault();
 
-        const numeroWhatsApp = "528979713312";
+        const numeroWhatsApp = "528971001811";
         const mensaje = encodeURIComponent(
             "¡Hola! Confirmo mi asistencia a la expedición de Andrés el 11 de julio. 🦖"
         );
